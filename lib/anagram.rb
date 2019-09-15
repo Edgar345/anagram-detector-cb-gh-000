@@ -9,5 +9,6 @@ class Anagram
     words.any? do |word|
       word.split("").sort == self.word.split("").sort
     end
+    []
   end
 end
