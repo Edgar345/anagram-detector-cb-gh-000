@@ -4,7 +4,9 @@ class Anagram
     @word = word
   end
 
-  def match word
+  def match words
+    words.any? do |word|
 
+    end
   end
 end
