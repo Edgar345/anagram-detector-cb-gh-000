@@ -6,9 +6,10 @@ class Anagram
   end
 
   def match words
+    result = []
     words.any? do |word|
       word.split("").sort == self.word.split("").sort
     end
-    []
+    result
   end
 end
